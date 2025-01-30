@@ -20,6 +20,9 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                accent:'#179800',
+                secondary: '#EFEBE3',
+                blackish: '#111111',
               }
             }
           }
@@ -37,6 +40,68 @@
 
 </head>
 <body class="font-sora">
-    
+
+    <!-- header section -->
+    <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF] pt-8 mb-32">
+      <nav class="flex justify-between items-center pb-4 px-[1.75vw] lg:px-[6vw]">
+        <!--left logo div -->
+         <div class="flex items-center">
+          <!-- logo -->
+           <img class="inline-block lg:hidden" src="./images/leaves.png" alt="green leaves logo">
+           <img class="hidden lg:inline-block lg:w-32 xl:w-[155px] " src="./images/logo-header.png" alt="logo">
+         </div>
+         
+
+         <!-- middle list items -->
+          <ul class="flex gap-4 xl:gap-8 text-lg xl:text-xl items-center">
+            <li class="hidden lg:inline-flex"><a href="#">Product</a></li>
+            <li class="hidden lg:inline-flex"><a href="#">Services</a></li>
+            <li class="hidden lg:inline-flex"><a href="#">Contact us</a></li>
+          </ul>
+
+          <!-- right div -->
+           <div class="flex gap-4 xl:gap-6 items-center">
+            <i class="fa-solid fa-magnifying-glass w-6 hidden lg:inline-flex"></i>
+            <i class="fa-solid fa-cart-shopping w-6  hidden lg:inline-flex"></i>
+            <button class="btn bg-none border border-accent hidden lg:inline-flex">Login</button>
+            <button class="btn bg-accent text-white hidden lg:inline-flex">Register</button>
+            <i class="fa-solid fa-bars w-6 text-accent text-2xl lg:hidden"></i>
+           </div>
+      </nav>
+      <hr class="border-b border-accent lg:hidden">
+
+      <!-- hero section -->
+      <section class="mt-12 lg:mt-28 px-[3vw] md:px-[14vw] lg:px-[13.5vw] relative">
+          <!-- hero title -->
+           <h1 class="font-semibold text-4xl lg:text-5xl text-center mb-8 ">
+            Freshness 
+            <span class="text-accent">You Can</span>
+           </br> 
+            <span class="text-accent"> Count</span> 
+            On, Prices You’ll Love!
+           </h1>
+           <!-- hero title description -->
+           <p class="text-blackish text-center mb-4 lg:mb-8">
+            Shop your daily essentials at unbeatable prices. From fresh produce to pantry 
+            staples, we’ve got you covered every day!
+           </p>
+
+           <!-- hero image div -->
+            <div>
+              <!-- hero image -->
+               <img class="w-full" src="./images/hero-vegetables.png" alt="">
+            </div>
+            <div class="w-16 sm:w-20 lg:w-40 animate-bounce absolute top-72 sm:top-60 lg:top-40 right-0">
+              <img src="./images/logo-header.png" alt="">
+            </div> 
+      </section>
+    </header>
+
+
+
+    <!-- main section -->
+     <main>
+        
+     </main>
 </body>
 </html>
