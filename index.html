@@ -42,8 +42,8 @@
 <body class="font-sora">
 
     <!-- header section -->
-    <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF] pt-8 mb-32">
-      <nav class="flex justify-between items-center pb-4 px-[1.75vw] lg:px-[6vw]">
+    <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF] pt-8 mb-12 md:mb-20 lg:mb-32">
+      <nav class="flex justify-between items-center pb-4 px-[3vw] lg:px-[6vw]">
         <!--left logo div -->
          <div class="flex items-center">
           <!-- logo -->
@@ -71,7 +71,7 @@
       <hr class="border-b border-accent lg:hidden">
 
       <!-- hero section -->
-      <section class="mt-12 lg:mt-28  lg:px-[11.2vw] xl:px-[12.5vw]">
+      <section class="mt-12 lg:mt-28  lg:px-[11.2vw] xl:px-[12.5vw] relative">
           <!-- text div -->
            
           <div class="px-[3vw] md:px-[13.5vw] lg:px-[9vw]">
@@ -106,7 +106,7 @@
     <!-- main section -->
      <main>
       <!-- services section -->
-       <section class="px-[6.5vw] sm:px-[10vw] md:px-[6.5vw lg:px-[8.75vw] 2xl:px-[12vw] mb-32">
+       <section class="px-[6.5vw] sm:px-[10vw] md:px-[6.5vw] lg:px-[8.75vw] 2xl:px-[12vw] mb-12 md:mb-20 lg:mb-32">
         <!-- title -->
          <h2 class="text-accent text-4xl mb-12">
           Services
@@ -166,6 +166,213 @@
              </div>
           </div>
        </section>
+
+       <!-- popular products section -->
+        <section class="px-[8.75vw] 2xl:px-[12vw] mb-32 bg-secondary py-[8.75vw]">
+          <h2 class="text-4xl font-semibold text-accent mb-12">
+            Popular Products
+          </h2>
+           
+          <!-- popular products card container -->
+           <div class="grid grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] grid-rows-7 lg:grid-rows-3 gap-3">
+
+            <!-- big card -->
+             <div class="col-span-2 row-span-3 lg:col-span-1 lg:row-span-3 rounded-lg bg-gradient-to-br from-[#53DB3A] to-white pt-8 sm:pt-16 lg:pt-10 pl-6 sm:pl-12 lg:pl-8 pr-2 relative ">
+              <!-- title -->
+              <h1 class="font-bold text-white text-4xl mb-3">
+                30% off
+              </h1>
+              <!-- description -->
+              <p class="text-base sm:text-lg lg:text-base xl:text-lg text-[#111111] w-full sm:w-7/12 lg:w-full xl:w-3/4 mb-4">
+                Discover a world of treats, toys and essentials handipicked for
+              </p>
+              <!-- button -->
+              <div>
+                <button class="text-xl bg-white rounded-xl py-3 px-6 font-medium">Buy Now</button>
+              </div>
+
+              <!-- image div -->
+               <div class="absolute bottom-0 right-0 flex justify-end">
+                <!-- image -->
+                 <img class="w-[80%] sm:w-full lg:w-[90%] xl:w-[80%] inline-flex" src="./images/vegetable-offer.png" alt="">
+               </div>
+             </div>
+
+
+             <!-- small cards -->
+              <!-- card one -->
+               <div class=" bg-white rounded-lg flex gap-2 p-2">
+                <!-- image div -->
+                 <div class="bg-secondary rounded-md flex justify-center items-center">
+                  <!-- image -->
+                   <img class="w-[80%]" src="./images/onion.png" alt="">
+                 </div>
+                 <!-- text div -->
+                  <div class="space-y-2">
+                    <!-- rating star + rating -->
+                     <div class="flex gap-2 items-center">
+                      <img class="inline-flex" src="./images/rating-star.png" alt=""> <span class="inline-flex">4.5</span>
+                     </div>
+                     <p class="text-lg font-medium">Onion 1 KG</p>
+                     <p class="font-medium">$39.99</p>
+                  </div>
+
+               </div>
+
+               <!-- card two -->
+               <div class=" bg-white rounded-lg flex gap-2 p-2">
+                <!-- image div -->
+                 <div class="bg-secondary rounded-md flex justify-center items-center">
+                  <!-- image -->
+                   <img class="w-[80%]" src="./images/tomato.png" alt="">
+                 </div>
+                 <!-- text div -->
+                  <div class="space-y-2">
+                    <!-- rating star + rating -->
+                     <div class="flex gap-2 items-center">
+                      <img class="inline-flex" src="./images/rating-star.png" alt=""> <span class="inline-flex">4.5</span>
+                     </div>
+                     <p class="text-lg font-medium">Tomato 500 g </p>
+                     <p class="font-medium">$39.99</p>
+                  </div>
+
+               </div>
+
+              <!-- card three -->
+              <div class=" bg-white rounded-lg flex gap-2 p-2">
+                <!-- image div -->
+                 <div class="bg-secondary rounded-md flex justify-center items-center">
+                  <!-- image -->
+                   <img class="w-[80%]" src="./images/potato.png" alt="">
+                 </div>
+                 <!-- text div -->
+                  <div class="space-y-2">
+                    <!-- rating star + rating -->
+                     <div class="flex gap-2 items-center">
+                      <img class="inline-flex" src="./images/rating-star.png" alt=""> <span class="inline-flex">4.5</span>
+                     </div>
+                     <p class="text-lg font-medium">Potato 1 KG </p>
+                     <p class="font-medium">$39.99</p>
+                  </div>
+
+               </div>
+
+              <!-- four -->
+              <div class=" bg-white rounded-lg flex gap-2 p-2">
+                <!-- image div -->
+                 <div class="bg-secondary rounded-md flex justify-center items-center">
+                  <!-- image -->
+                   <img class="w-[80%]" src="./images/tomato.png" alt="">
+                 </div>
+                 <!-- text div -->
+                  <div class="space-y-2">
+                    <!-- rating star + rating -->
+                     <div class="flex gap-2 items-center">
+                      <img class="inline-flex" src="./images/rating-star.png" alt=""> <span class="inline-flex">4.5</span>
+                     </div>
+                     <p class="text-lg font-medium">Tomato 500 g </p>
+                     <p class="font-medium">$39.99</p>
+                  </div>
+
+               </div>
+
+              <!-- card five -->
+              <div class=" bg-white rounded-lg flex gap-2 p-2">
+                <!-- image div -->
+                 <div class="bg-secondary rounded-md flex justify-center items-center">
+                  <!-- image -->
+                   <img class="w-[80%]" src="./images/potato.png" alt="">
+                 </div>
+                 <!-- text div -->
+                  <div class="space-y-2">
+                    <!-- rating star + rating -->
+                     <div class="flex gap-2 items-center">
+                      <img class="inline-flex" src="./images/rating-star.png" alt=""> <span class="inline-flex">4.5</span>
+                     </div>
+                     <p class="text-lg font-medium">Potato 1 KG </p>
+                     <p class="font-medium">$39.99</p>
+                  </div>
+
+               </div>
+
+              <!-- card six -->
+              <div class=" bg-white rounded-lg flex gap-2 p-2">
+                <!-- image div -->
+                 <div class="bg-secondary rounded-md flex justify-center items-center">
+                  <!-- image -->
+                   <img class="w-[80%]" src="./images/onion.png" alt="">
+                 </div>
+                 <!-- text div -->
+                  <div class="space-y-2">
+                    <!-- rating star + rating -->
+                     <div class="flex gap-2 items-center">
+                      <img class="inline-flex" src="./images/rating-star.png" alt=""> <span class="inline-flex">4.5</span>
+                     </div>
+                     <p class="text-lg font-medium">Onion 1 KG</p>
+                     <p class="font-medium">$39.99</p>
+                  </div>
+
+               </div>
+
+              <!-- card seven -->
+              <div class=" bg-white rounded-lg flex gap-2 p-2">
+                <!-- image div -->
+                 <div class="bg-secondary rounded-md flex justify-center items-center">
+                  <!-- image -->
+                   <img class="w-[80%]" src="./images/potato.png" alt="">
+                 </div>
+                 <!-- text div -->
+                  <div class="space-y-2">
+                    <!-- rating star + rating -->
+                     <div class="flex gap-2 items-center">
+                      <img class="inline-flex" src="./images/rating-star.png" alt=""> <span class="inline-flex">4.5</span>
+                     </div>
+                     <p class="text-lg font-medium">Potato 1 KG </p>
+                     <p class="font-medium">$39.99</p>
+                  </div>
+
+               </div>
+
+              <!-- card eight -->
+              <div class=" bg-white rounded-lg flex gap-2 p-2">
+                <!-- image div -->
+                 <div class="bg-secondary rounded-md flex justify-center items-center">
+                  <!-- image -->
+                   <img class="w-[80%]" src="./images/onion.png" alt="">
+                 </div>
+                 <!-- text div -->
+                  <div class="space-y-2">
+                    <!-- rating star + rating -->
+                     <div class="flex gap-2 items-center">
+                      <img class="inline-flex" src="./images/rating-star.png" alt=""> <span class="inline-flex">4.5</span>
+                     </div>
+                     <p class="text-lg font-medium">Onion 1 KG</p>
+                     <p class="font-medium">$39.99</p>
+                  </div>
+
+               </div>
+
+              <!-- card nine -->
+              <div class=" bg-white rounded-lg flex gap-2 p-2 hidden lg:inline-flex">
+                <!-- image div -->
+                 <div class="bg-secondary rounded-md flex justify-center items-center">
+                  <!-- image -->
+                   <img class="w-[80%]" src="./images/tomato.png" alt="">
+                 </div>
+                 <!-- text div -->
+                  <div class="space-y-2">
+                    <!-- rating star + rating -->
+                     <div class="flex gap-2 items-center">
+                      <img class="inline-flex" src="./images/rating-star.png" alt=""> <span class="inline-flex">4.5</span>
+                     </div>
+                     <p class="text-lg font-medium">Tomato 500 g </p>
+                     <p class="font-medium">$39.99</p>
+                  </div>
+
+               </div>
+
+           </div>
+        </section>
      </main>
 </body>
 </html>
