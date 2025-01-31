@@ -23,6 +23,7 @@
                 accent:'#179800',
                 secondary: '#EFEBE3',
                 blackish: '#111111',
+                special: '#DEF5DA',
               }
             }
           }
@@ -48,7 +49,7 @@
          <div class="flex items-center">
           <!-- logo -->
            <img class="inline-block lg:hidden" src="./images/leaves.png" alt="green leaves logo">
-           <img class="hidden lg:inline-block md:w-36 lg:w-[155px] " src="./images/logo-header.png" alt="logo">
+           <img class="hidden lg:inline-block md:w-36 lg:w-[155px]" src="./images/logo-header.png" alt="logo">
          </div>
          
 
@@ -105,10 +106,12 @@
 
     <!-- main section -->
      <main>
+
+
       <!-- services section -->
        <section class="px-[6.5vw] sm:px-[10vw] md:px-[6.5vw] lg:px-[8.75vw] 2xl:px-[12vw] mb-12 md:mb-20 lg:mb-32">
         <!-- title -->
-         <h2 class="text-accent text-4xl mb-12">
+         <h2 class="text-accent text-4xl font-semibold mb-12">
           Services
          </h2>
 
@@ -167,12 +170,95 @@
           </div>
        </section>
 
+
+
+<!-- extra section upcoming specials -->
+
+      <section class="px-[6.5vw] sm:px-[10vw] md:px-[6.5vw] lg:px-[8.75vw] 2xl:px-[12vw] pb-32 bg-gradient-to-t from-special to-secondary py-[8.75vw] mt-32">
+        <!-- title -->
+        <h2 class="text-accent text-4xl font-semibold mb-12">
+            Upcoming Specials
+         </h2>
+
+       <!-- upcoming special card container -->
+       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <!-- card one -->
+         <div class="bg-white rounded-xl px-8 py-10">
+          <!-- card image div -->
+          <div class="mb-7 w-36 h-36 rounded-full bg-secondary mx-auto flex justify-center items-center">
+            <!-- card image -->
+            <img class="w-[70%] rounded-full" src="./images/ceylon-coconut-oil.png" alt="">
+          </div>
+          <!-- card title -->
+          <h3 class="text-center text-xl xl:text-2xl font-semibold mb-3  sm:mb-8 md:mb-3">
+            Extra Virgin  Coconut Oil
+          </h3>
+          <!-- card title description -->
+           <p class="text-justify text-sm">
+            Made from fresh, mature coconut meat and is typically extracted through cold-pressing or other gentle methods that preserve its natural flavor, nutrients, and aroma. 
+           </p>
+         </div>
+
+         <!-- card two -->
+         <div class="bg-white rounded-xl px-8 py-10">
+          <!-- card image div -->
+          <div class="mb-7 w-36 h-36 rounded-full bg-secondary mx-auto flex justify-center items-center">
+            <!-- card image -->
+            <img class="w-[70%] rounded-full" src="./images/olive-oil.png" alt="">
+          </div>
+          <!-- card title -->
+          <h3 class="text-center text-xl xl:text-2xl font-semibold mb-3  sm:mb-8 md:mb-3">
+            Extra Virgin  Olive Oil
+          </h3>
+          <!-- card title description -->
+           <p class="text-justify text-sm">
+            Highest quality and most flavorful. Made by cold-pressing fresh olives without the use of heat or chemicals, which helps preserve its natural flavors and antioxidants.
+           </p>
+         </div>
+
+          <!-- card three -->
+          <div class="bg-white rounded-xl px-8 py-10">
+            <!-- card image div -->
+            <div class="mb-7 w-36 h-36 rounded-full bg-secondary mx-auto flex justify-center items-center">
+              <!-- card image -->
+              <img class="w-[70%] rounded-full" src="./images/mct-oil.png" alt="">
+            </div>
+            <!-- card title -->
+            <h3 class="text-center text-xl xl:text-2xl font-semibold mb-3  sm:mb-8 md:mb-3">
+              Organic  MCT Oil
+            </h3>
+            <!-- card title description -->
+             <p class="text-justify text-sm">
+              MCT oil is rapidly absorbed by the body and converted into ketones, which can be used as a quick energy source for the brain and muscles. Sustained Energy.
+             </p>
+           </div>
+
+           <!-- card four -->
+          <div class="bg-white rounded-xl px-8 py-10">
+            <!-- card image div -->
+            <div class="mb-7 w-36 h-36 rounded-full bg-secondary mx-auto flex justify-center items-center">
+              <!-- card image -->
+              <img class="w-[70%] rounded-full" src="./images/maca-powder.png" alt="">
+            </div>
+            <!-- card title -->
+            <h3 class="text-center text-xl xl:text-2xl font-semibold mb-3  sm:mb-8 md:mb-3">
+              Organic  Maca Powder
+            </h3>
+            <!-- card title description -->
+             <p class="text-justify lg:text-sm">
+              Maca powder is a versatile and nutrient-dense supplement with a variety of potential benefits, including boosting energy, improving mood and many more.
+             </p>
+           </div>
+      </section>
+
+
+
        <!-- popular products section -->
-        <section class="px-[8.75vw] 2xl:px-[12vw] mb-32 bg-secondary py-[8.75vw]">
+        <section class="px-[6.5vw] sm:px-[10vw] md:px-[6.5vw] lg:px-[8.75vw] 2xl:px-[12vw] mb-0 py-[8.75vw] bg-secondary">
+          <!-- title -->
           <h2 class="text-4xl font-semibold text-accent mb-12">
             Popular Products
-          </h2>
-           
+          </h2> 
           <!-- popular products card container -->
            <div class="grid grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] grid-rows-7 lg:grid-rows-3 gap-3">
 
@@ -183,7 +269,7 @@
                 30% off
               </h1>
               <!-- description -->
-              <p class="text-base sm:text-lg lg:text-base xl:text-lg text-[#111111] w-full sm:w-7/12 lg:w-full xl:w-3/4 mb-4">
+              <p class="text-base sm:text-lg lg:text-base xl:text-lg text-[#111111] w-3/4 sm:w-7/12 lg:w-full xl:w-3/4 mb-4">
                 Discover a world of treats, toys and essentials handipicked for
               </p>
               <!-- button -->
@@ -194,7 +280,7 @@
               <!-- image div -->
                <div class="absolute bottom-0 right-0 flex justify-end">
                 <!-- image -->
-                 <img class="w-[80%] sm:w-full lg:w-[90%] xl:w-[80%] inline-flex" src="./images/vegetable-offer.png" alt="">
+                 <img class="w-[90%] sm:w-full lg:w-[90%] xl:w-[80%] inline-flex" src="./images/vegetable-offer.png" alt="">
                </div>
              </div>
 
@@ -353,26 +439,49 @@
                </div>
 
               <!-- card nine -->
-              <div class=" bg-white rounded-lg flex gap-2 p-2 hidden lg:inline-flex">
-                <!-- image div -->
-                 <div class="bg-secondary rounded-md flex justify-center items-center">
-                  <!-- image -->
-                   <img class="w-[80%]" src="./images/tomato.png" alt="">
+              <div class="hidden lg:inline-block rounded-lg bg-white">
+                <div class="rounded-lg flex gap-2 p-2">
+                  <!-- image div -->
+                   <div class="bg-secondary rounded-md flex justify-center items-center">
+                    <!-- image -->
+                     <img class="w-[80%]" src="./images/tomato.png" alt="">
+                   </div>
+                   <!-- text div -->
+                    <div class="space-y-2">
+                      <!-- rating star + rating -->
+                       <div class="flex gap-2 items-center">
+                        <img class="inline-flex" src="./images/rating-star.png" alt=""> <span class="inline-flex">4.5</span>
+                       </div>
+                       <p class="text-lg font-medium">Tomato 500 g </p>
+                       <p class="font-medium">$39.99</p>
+                    </div>
+  
                  </div>
-                 <!-- text div -->
-                  <div class="space-y-2">
-                    <!-- rating star + rating -->
-                     <div class="flex gap-2 items-center">
-                      <img class="inline-flex" src="./images/rating-star.png" alt=""> <span class="inline-flex">4.5</span>
-                     </div>
-                     <p class="text-lg font-medium">Tomato 500 g </p>
-                     <p class="font-medium">$39.99</p>
-                  </div>
-
-               </div>
+              </div>
 
            </div>
         </section>
+
+
+        <!-- arrival & offers section -->
+         <section class="px-[6.5vw] sm:px-[10vw] md:px-[6.5vw] lg:px-[8.75vw] 2xl:px-[12vw] mb-32 py-[8.75vw]">
+            <!-- title -->
+          <h2 class="text-4xl font-semibold text-accent mb-12">
+            Arrival & Offers
+          </h2> 
+
+          <!-- arrival & offers card container -->
+           <div>
+             <!-- card one -->
+              <div>
+
+              </div>
+
+              <!-- card two -->
+               <div></div>
+               
+           </div>
+         </section>
      </main>
 </body>
 </html>
