@@ -44,7 +44,7 @@
 
     <!-- header section -->
     <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF] pt-8 mb-12 md:mb-20 lg:mb-32">
-      <nav class="flex justify-between items-center pb-4 px-[3vw] lg:px-[6vw]">
+      <nav class="flex justify-between items-center pb-4 px-[6.5vw]">
         <!--left logo div -->
          <div class="flex items-center">
           <!-- logo -->
@@ -109,7 +109,7 @@
 
 
       <!-- services section -->
-       <section class="px-[6.5vw] sm:px-[10vw] md:px-[6.5vw] lg:px-[8.75vw] 2xl:px-[12vw] mb-12 md:mb-20 lg:mb-32">
+       <section class="px-[6.5vw] sm:px-[10vw] md:px-[6.5vw] lg:px-[8.75vw] 2xl:px-[10vw] mb-12 md:mb-20 lg:mb-32">
         <!-- title -->
          <h2 class="text-accent text-4xl font-semibold mb-12">
           Services
@@ -254,7 +254,7 @@
 
 
        <!-- popular products section -->
-        <section class="px-[6.5vw] sm:px-[10vw] md:px-[6.5vw] lg:px-[8.75vw] 2xl:px-[12vw] mb-0 py-[8.75vw] bg-secondary">
+        <section class="px-[6.5vw] sm:px-[10vw] md:px-[6.5vw] lg:px-[8.75vw] 2xl:px-[10vw] mb-0 py-[8.75vw] bg-secondary">
           <!-- title -->
           <h2 class="text-4xl font-semibold text-accent mb-12">
             Popular Products
@@ -464,22 +464,64 @@
 
 
         <!-- arrival & offers section -->
-         <section class="px-[6.5vw] sm:px-[10vw] md:px-[6.5vw] lg:px-[8.75vw] 2xl:px-[12vw] mb-32 py-[8.75vw]">
+         <section class="px-[6.5vw] sm:px-[10vw] md:px-[6.5vw] lg:px-[8.75vw] 2xl:px-[10vw] mb-32 py-[8.75vw]">
             <!-- title -->
           <h2 class="text-4xl font-semibold text-accent mb-12">
             Arrival & Offers
           </h2> 
 
           <!-- arrival & offers card container -->
-           <div>
-             <!-- card one -->
-              <div>
+           <div class="grid  grid-cols-1 lg:grid-cols-7 xl:grid-cols-5 gap-5">
 
+
+             <!-- card one -->
+              <div class="lg:col-span-4 xl:col-span-3 rounded-xl pl-5 pt-6 bg-[#115414] flex justify-between gap-4">
+                  <!-- left image+text div -->
+                   <div class=" space-y-7 flex flex-col justify-start self-end pb-16">
+                          <!-- image div -->
+                           <div>
+                            <!-- image -->
+                               <img class="lg:w-3/4 mx-auto" src="./images/dawat-logo.png" alt="logo">
+                           </div>
+                        <!-- button  -->
+                        <button class="font-poppins text-base sm:text-lg md:text-2xl lg:text-lg xl:text-xl 2xl:text-2xl bg-[#63b76d] text-white rounded-lg py-2 px-5 lg:px-2 xl:px-5">
+                          Cook Exotic Dishes
+                        </button>
+                        <!-- text -->
+                         <p class="text-lg sm:text-2xl md:text-4xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-white">
+                          UP to <span class="font-bold">20% OFF</span>
+                         </p>
+                      </div>
+                   <!-- right image div -->
+                    <div class="">
+                      <img src="./images/dawat-mock-up.png" alt="mock-up">
+                    </div>
               </div>
 
+
+
               <!-- card two -->
-               <div></div>
-               
+               <div class="lg:col-span-3 xl:col-span-2 flex justify-between bg-[#102861] rounded-xl pl-6 pt-5">
+                    <!-- left div -->
+                     <div class="space-y-6">
+                      <!-- left image -->
+                      <img src="./images/india-gate-logo.png" alt="india gate logo">
+                      <!-- button -->
+                      <button class="font-poppins text-base sm:text-lg md:text-2xl lg:text-lg xl:text-xl 2xl:text-2xl bg-[#2a4d97] text-white rounded-lg py-2 px-4">
+                        World’s No.1 Rice
+                      </button>
+                      <!-- text -->
+                       <p class="text-lg sm:text-2xl md:text-4xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-white">
+                        UP to <span class="font-bold">40% OFF</span>
+                       </p>
+                    </div>
+                     <!-- right div -->
+                      <div class="self-end">
+                        <!-- image -->
+                         <img src="./images/india-gate-mock-up.png" alt="">
+                      </div>
+               </div>
+
            </div>
          </section>
      </main>
